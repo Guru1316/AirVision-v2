@@ -1,0 +1,24 @@
+# Python cache
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+
+# Environment folders
+env/
+venv/
+.venv/
+
+# OS junk
+.DS_Store
+Thumbs.db
+
+# Streamlit secret key file
+.streamlit/secrets.toml
+
+# Jupyter cache
+.ipynb_checkpoints/
+
+# Logs
+logs/
+*.log
