@@ -20,11 +20,15 @@ st.set_page_config(
     initial_sidebar_state="expanded"
 )
 st.markdown("""
-<meta property="og:title" content="AirVision - AI Pollution Intelligence Dashboard">
-<meta property="og:description" content="Real-time AQI monitoring, forecasting, health advisory and policy insights for Delhi-NCR.">
-<meta property="og:image" content="https://i.ibb.co/PZSFR2X/airvision-banner.png">
+<head>
+<meta property="og:title" content="AirVision – AI Driven Air Quality Intelligence"/>
+<meta property="og:description" content="Real-time AQI monitoring, 72-hour forecast, pollution source analysis and policy dashboard for Delhi NCR."/>
+<meta property="og:image" content="https://raw.githubusercontent.com/Guru1316/AirVision-v2/main/meta/airvision_cover.png"/>
+<meta property="og:url" content="https://air-vision.streamlit.app/"/>
 <meta name="twitter:card" content="summary_large_image">
+</head>
 """, unsafe_allow_html=True)
+
 
 # Enhanced GIS Blue Theme
 st.markdown("""
