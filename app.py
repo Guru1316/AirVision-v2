@@ -19,6 +19,12 @@ st.set_page_config(
     layout="wide",
     initial_sidebar_state="expanded"
 )
+st.markdown("""
+<meta property="og:title" content="AirVision - AI Pollution Intelligence Dashboard">
+<meta property="og:description" content="Real-time AQI monitoring, forecasting, health advisory and policy insights for Delhi-NCR.">
+<meta property="og:image" content="https://i.ibb.co/PZSFR2X/airvision-banner.png">
+<meta name="twitter:card" content="summary_large_image">
+""", unsafe_allow_html=True)
 
 # Enhanced GIS Blue Theme
 st.markdown("""
